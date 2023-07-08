@@ -1,5 +1,10 @@
-This directory contains code for generating a memory mountain, as
-described in Computer Systems: A Programmer's Perspective 
+Tugas Arskom
+Cara Penggunaan:
+1. git clone
+2. pastikan laptop temen-temen sudah punya gcc untuk compiler
+3. masuk direktorinya.
+4. Jalankan command gcc clock.c fcyc2.c mountain.c -o main
+5. ./main
 
 clock.{c,h}	- routines for using x86 and Alpha cycle timers
 fcyc2.{c,h}	- routines that estimate the number of cycles required 
